@@ -1,6 +1,8 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+
+//this is a test to see if git is working  
 const Main = () => {
     return (
         <div id='main'>
