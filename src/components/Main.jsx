@@ -1,12 +1,12 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import bgImage from '../assets/bgImage.jpg'
 
-//this is a test to see if git is working  
 const Main = () => {
     return (
         <div id='main'>
-            <img className='w-full h-screen object-cover object-left scale-x-[-1]' src='../assets/bgImage.JPG' alt="" />
+            <img className='w-full h-screen object-cover object-left scale-x-[-1]' src={bgImage} alt="" />
             <div className='w-full h-screen absolute top-0 left-0 bg-white/25'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:item-start items-center'>
                     <h1 className='smLtext-5xl text-4xl font-bold text-gray-800 '>I'm Ajay</h1>
